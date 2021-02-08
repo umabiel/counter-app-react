@@ -2,4 +2,13 @@ html,
 body {
   color: white;
   background-color: rgb(46, 44, 44);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.3rem;
+  padding: 70px;
+}
+
+button {
+  font-size: 1.3rem;
+  margin-right: 10px;
+  padding: 10px;
 }
