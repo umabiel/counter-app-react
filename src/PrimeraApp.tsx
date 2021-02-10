@@ -11,7 +11,7 @@ const PrimeraApp = ({ titulo, subtitulo }: IProps) => {
   return (
     <Fragment>
       <h1> {titulo} </h1>
-      <p>SubTitulo: {subtitulo}</p>
+      <p>{subtitulo}</p>
     </Fragment>
   );
 };

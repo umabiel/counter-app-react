@@ -1,10 +1,10 @@
 import { Fragment, useState } from "react";
 
 interface IProps {
-  value: number;
+  value?: number;
 }
 
-const CounterApp = ({ value }: IProps) => {
+const CounterApp = ({ value = 10 }: IProps) => {
   const [counter, setCounter] = useState(value);
 
   const handleAdd = () => {
